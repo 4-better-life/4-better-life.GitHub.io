@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAQ on For Better Life</title>
+    <link>/categories/faq/</link>
+    <description>Recent content in FAQ on For Better Life</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常见问题解答</title>
+      <link>/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/faq/</guid>
+      <description>(最近更新时间：2021-09-23) 居委会、业委会和物业的区别 物业管理公司（简称物业），职责是受全体业主的委托，对小区的卫生，安全，绿化，</description>
+    </item>
+    
+  </channel>
+</rss>

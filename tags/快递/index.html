@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>快递 - 标签 - For Better Life</title><link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="icon" href="/images/favicons/favicon.ico">
+<meta name="keywords" content="Hugo, Bootstrap, 博客主题" />
+<meta name="description" content="一个极快、响应式和功能丰富的 Hugo 博客主题" /><meta itemprop="name" content="快递">
+<meta itemprop="description" content="一个极快、响应式和功能丰富的 Hugo 博客主题"><meta property="og:title" content="快递" />
+<meta property="og:description" content="一个极快、响应式和功能丰富的 Hugo 博客主题" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/tags/%E5%BF%AB%E9%80%92/" /><meta property="og:site_name" content="For Better Life" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="快递"/>
+<meta name="twitter:description" content="一个极快、响应式和功能丰富的 Hugo 博客主题"/>
+<link rel="alternate" type="application/rss+xml" href="/tags/%E5%BF%AB%E9%80%92/index.xml" title="For Better Life" /><meta data-name="palette" content="blue"><link rel="preload" href="/css/bundle.min.0172d945bcff66484bdb700b2226cec0982651e0c56a1a560a76ab5dd0cf653c.css" integrity="sha256-AXLZRbz/ZkhL23ALIibOwJgmUeDFahpWCnarXdDPZTw=" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/css/bundle.min.0172d945bcff66484bdb700b2226cec0982651e0c56a1a560a76ab5dd0cf653c.css" integrity="sha256-AXLZRbz/ZkhL23ALIibOwJgmUeDFahpWCnarXdDPZTw=" crossorigin="anonymous"></noscript><script src="/js/bundle.min.7fb72bb1973a3a1821a0bbf7f5c2a785af0467ca9a4b57faf7eb0bb61e45fc0a.js" integrity="sha256-f7crsZc6OhghoLv39cKnha8EZ8qaS1f69&#43;sLth5F/Ao=" crossorigin="anonymous"></script>
+</head><body><header><nav class="navbar navbar-expand-xl fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img class="logo" alt="Logo" src="/images/logo.png"
+   width="300" height="300" loading="lazy" />
+For Better Life</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-1 mb-2 mb-lg-0"><form class="search-bar d-flex ms-1" action="/search">
+  <div class="input-group input-group-sm">
+    <button class="btn btn-search disabled position-absolute left-0" type="submit" aria-label="submit"><i class="fas fa-fw fa-search"></i></button>
+    <input class="form-control rounded-pill" id="searchQuery" name="q" type="search" aria-label="Search">
+  </div>
+</form></ul><ul class="navbar-nav me-1 mb-2 mb-lg-0 me-1 ms-auto"><li class="nav-item">
+          <a class="nav-link" href="/faq">
+            常见问题解答
+          </a>
+        </li><li class="nav-item">
+  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasSettings" role="button"
+    aria-controls="offcanvasSettings">
+    <i class="fas fa-fw fa-sliders-h"></i> 设置
+  </a>
+</li>
+
+<div class="offcanvas offcanvas-end surface h-100" tabindex="-1" id="offcanvasSettings"
+  aria-labelledby="offcanvasSettingsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" w id="offcanvasSettingsLabel"><i class="fas fa-fw fa-sliders-h"></i> 设置</h5>
+    <a role="button" data-bs-dismiss="offcanvas" aria-label="Close">
+      <span class="fas fa-2x fa-fw fa-times"></span>
+    </a>
+  </div>
+  <div class="offcanvas-body"><section class="setting">
+  <form class="row">
+    <div class="col-auto">
+      <label><i class="fas fa-fw fa-adjust"></i> 模式</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="modeSwitcher">
+      </div>
+    </div>
+  </form>
+</section>
+<section class="setting">
+  <form class="font-size-switcher-form row">
+    <div class="col-auto">
+      <label for="fontSize" class="form-label"><i class="fas fa-fw fa-font"></i> 字体大小</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <input type="range" class="form-range" min="-2" max="2" id="fontSize">
+    </div>
+  </form>
+</section>
+
+<section class="setting palettes">
+  <form class="row">
+    <div class="col-auto">
+      <label><i class="fas fa-fw fa-palette"></i> 配色</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <span id="btnPalette" class="btn btn-sm"><i class="fas fa-eye-dropper"></i></span>
+    </div>
+  </form>
+  <div class="container mt-2 visually-hidden" id="palettePicker">
+    <div class="btn-group"><button type="button" id="palette-blue" title="蓝色" 
+          class="btn btn-sm palette bg-blue d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-blue-gray" title="蓝灰色" 
+          class="btn btn-sm palette bg-blue-gray d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-brown" title="棕色" 
+          class="btn btn-sm palette bg-brown d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-cyan" title="青色" 
+          class="btn btn-sm palette bg-cyan d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-green" title="绿色" 
+          class="btn btn-sm palette bg-green d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-indigo" title="靛青色" 
+          class="btn btn-sm palette bg-indigo d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-orange" title="橙色" 
+          class="btn btn-sm palette bg-orange d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-pink" title="粉色" 
+          class="btn btn-sm palette bg-pink d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-purple" title="紫色" 
+          class="btn btn-sm palette bg-purple d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-red" title="红色" 
+          class="btn btn-sm palette bg-red d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-teal" title="蓝绿色" 
+          class="btn btn-sm palette bg-teal d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-yellow" title="黄色" 
+          class="btn btn-sm palette bg-yellow d-flex align-items-center justify-content-center">
+        </button></button>
+    </div>
+  </div>
+</section></div>
+</div></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main role="main" class="container">
+      <div class="row content">
+<div class="col-lg-8">
+  <div class="container"><nav class="row" aria-label="breadcrumb">
+  <ol class="breadcrumb surface"><li class="breadcrumb-item"><a href="/">主页</a></li><li class="breadcrumb-item"><a href="/tags/">Tags</a></li><li class="breadcrumb-item active">快递</li></ol>
+</nav><div class="posts mb-4"><article class="post row surface">
+      <h2 class="post-title mb-4"><a href="/posts/2021/09/courier_entrance_keys/">一小时内发现8个快递员有入户门卡
+</a></h2><div class="post-meta mb-3"><span class="post-date me-2">
+    <i class="fas fa-fw fa-calendar-alt"></i>2021-09-20
+  </span><span class="post-taxonomies"><a href="/categories/%E7%89%A9%E4%B8%9A/" class="post-taxonomy">物业</a><a href="/tags/%E5%AE%89%E5%85%A8/" class="post-taxonomy">安全</a><a href="/tags/%E9%97%A8%E5%8D%A1/" class="post-taxonomy">门卡</a><a href="/tags/%E5%BF%AB%E9%80%92/" class="post-taxonomy">快递</a></span>
+</div>
+<div class="post-summary mb-3">
+        
+        一业主在楼下抽烟，发现一个小时之内，有至少8个快递员有入户门卡，直接刷卡进门。有视频证据。 据反映，快递员所持门卡是可以开启小区内所有门栋的门
+      </div>
+    </article></div><div class="row table-responsive mb-3"></div>
+</div>
+
+
+</div><aside class="col-lg-4 sidebar d-flex">
+  <div class="container"><section class="profile surface row text-center">
+  <div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="For Better Life" src="/images/logo.png"
+   width="300" height="300" loading="lazy" />
+</div>
+  <div class="col-12 profile-meta"><div class="profile-name">For Better Life</div><div class="profile-location"><i class="fas fa-fw fa-map-marker-alt"></i>保利叶语二期</div></div>
+</section>
+  <section class="recent-posts row surface">
+  <h4>最近文章</h4>
+  <ul><li><a href="/posts/2021/09/motor_in_housing-estate/">发现摩的进小区
+</a></li><li><a href="/posts/2021/09/courier_entrance_keys/">一小时内发现8个快递员有入户门卡
+</a></li><li><a href="/posts/2021/09/bian_mian_chan_yi/">关于实名发起罢免保利叶城A1业主委员会的倡议
+</a></li><li><a href="/posts/2021/09/letter_to_neighbors/">致叶语二期业主邻居们的一封信
+</a></li></ul>
+</section><section class="taxonomy-categories row surface">
+      <h4>
+        <a href="/categories">分类</a>
+      </h4>
+      <div><a href="/categories/%E5%91%8A%E7%9F%A5%E4%B9%A6/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="告知书">
+          告知书 <span class="badge rounded-pill">2</span>
+        </a><a href="/categories/%E7%89%A9%E4%B8%9A/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="物业">
+          物业 <span class="badge rounded-pill">2</span>
+        </a><a href="/categories/faq/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="FAQ">
+          FAQ <span class="badge rounded-pill">1</span>
+        </a></div>
+    </section><section class="taxonomy-tags row surface">
+      <h4>
+        <a href="/tags">标签</a>
+      </h4>
+      <div><a href="/tags/%E5%AE%89%E5%85%A8/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="安全">
+          安全 <span class="badge rounded-pill">2</span>
+        </a><a href="/tags/%E4%BF%9D%E5%AE%89/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="保安">
+          保安 <span class="badge rounded-pill">1</span>
+        </a><a href="/tags/%E5%BF%AB%E9%80%92/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="快递">
+          快递 <span class="badge rounded-pill">1</span>
+        </a><a href="/tags/%E9%97%A8%E5%8D%A1/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="门卡">
+          门卡 <span class="badge rounded-pill">1</span>
+        </a><a href="/tags/%E9%BB%91%E8%BD%A6/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="黑车">
+          黑车 <span class="badge rounded-pill">1</span>
+        </a></div>
+    </section></div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><nav class="social-links nav my-2 justify-content-center"><a class="nav-link social-link" target="_blank" href="/tags/%E5%BF%AB%E9%80%92/index.xml" title="RSS" rel="noopener noreferrer">
+      <i class="fas fa-fw fa-2x fa-rss"></i>
+    </a></nav>
+<div class="copyright mb-2">
+  
+</div>
+</footer>
+<a id="btnScrollToTop" class="btn-scroll-to-top">
+  <i class="fas fa-fw fa-chevron-circle-up fa-2x"></i>
+</a>
+</body>
+</html>

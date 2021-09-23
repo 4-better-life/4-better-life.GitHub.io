@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on For Better Life</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on For Better Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 23 Sep 2021 08:09:17 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>物业</title>
+      <link>/categories/%E7%89%A9%E4%B8%9A/</link>
+      <pubDate>Thu, 23 Sep 2021 08:09:17 +0800</pubDate>
+      
+      <guid>/categories/%E7%89%A9%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>告知书</title>
+      <link>/categories/%E5%91%8A%E7%9F%A5%E4%B9%A6/</link>
+      <pubDate>Thu, 02 Sep 2021 13:00:00 +0800</pubDate>
+      
+      <guid>/categories/%E5%91%8A%E7%9F%A5%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/categories/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/faq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
