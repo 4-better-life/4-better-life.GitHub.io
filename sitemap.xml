@@ -29,6 +29,12 @@
     <loc>/tags/%E9%BB%91%E8%BD%A6/</loc>
     <lastmod>2021-09-23T08:09:17+08:00</lastmod>
   </url><url>
+    <loc>/categories/faq/</loc>
+    <lastmod>2021-09-22T13:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/faq/main/</loc>
+    <lastmod>2021-09-22T13:00:00+08:00</lastmod>
+  </url><url>
     <loc>/posts/2021/09/courier_entrance_keys/</loc>
     <lastmod>2021-09-20T16:40:17+00:00</lastmod>
   </url><url>
@@ -47,10 +53,8 @@
     <loc>/posts/2021/09/letter_to_neighbors/</loc>
     <lastmod>2021-09-01T13:00:00+08:00</lastmod>
   </url><url>
-    <loc>/categories/faq/</loc>
-  </url><url>
     <loc>/series/</loc>
   </url><url>
-    <loc>/faq/</loc>
+    <loc>/search/</loc>
   </url>
 </urlset>
