@@ -5,11 +5,20 @@
     <link>/categories/</link>
     <description>Recent content in Categories on For Better Life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Sep 2021 08:15:17 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Sep 2021 14:20:17 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>业委会</title>
+      <link>/categories/%E4%B8%9A%E5%A7%94%E4%BC%9A/</link>
+      <pubDate>Fri, 24 Sep 2021 14:20:17 +0800</pubDate>
+      
+      <guid>/categories/%E4%B8%9A%E5%A7%94%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>物业</title>
       <link>/categories/%E7%89%A9%E4%B8%9A/</link>
-      <pubDate>Fri, 24 Sep 2021 08:15:17 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 14:20:17 +0800</pubDate>
       
       <guid>/categories/%E7%89%A9%E4%B8%9A/</guid>
       <description></description>
@@ -18,7 +27,7 @@
     <item>
       <title>FAQ</title>
       <link>/categories/faq/</link>
-      <pubDate>Wed, 22 Sep 2021 13:00:00 +0800</pubDate>
+      <pubDate>Fri, 24 Sep 2021 13:30:00 +0800</pubDate>
       
       <guid>/categories/faq/</guid>
       <description></description>
